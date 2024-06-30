@@ -119,7 +119,7 @@
 .left-bottom {
     height: 13.86vw; /* 12.6vw * 1.1 */
     width: 15.532vw; /* 14.12vw * 1.1 */
-    background-image: url("./src/First\ Template.png");
+    background-image: url("../src/First\ Template.png");
     border-radius: 1.875vw;
    background-repeat: no-repeat;
    background-size: cover;
@@ -140,7 +140,7 @@
 .top-left {
     height: 19.151vw; /* 17.41vw * 1.1 */
     width: 10.78vw; /* 9.8vw * 1.1 */
-    background-image: url("./src/second-template.png");
+    background-image: url("../src/second-template.png");
     background-size:cover;
 
     background-position: center;
