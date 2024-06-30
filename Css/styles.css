@@ -95,7 +95,7 @@ footer {
 .banner {
     height: 16vw;
     border-radius: 30px;
-    background-image: url(./src/Banner.png);
+    background-image: url("../src/Banner.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
