@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domino's India | Order Pizza Online</title>
+    <meta name="description"
+        content="Order delicious pizzas from Domino's India. Explore our menu, find deals, and customize your pizza orders. Fast delivery and great offers await!">
+    <meta name="keywords" content="Domino's India, order pizza online, pizza delivery, Domino's deals, pizza menu">
+    <meta name="author" content="Code Junkies">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link rel="shortcut icon" href="src/dominos-pizza.svg" type="image/x-icon">
+    <link rel="stylesheet" href="Css/header.css">
+    <link rel="stylesheet" href="Css/hero.css">
+    <link rel="stylesheet" href="Css/text-bento.css">
+    <link rel="stylesheet" href="Css/card-section.css">
+    <link rel="stylesheet" href="Css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+</head>
+
+<body>
+    <div id="wrapper_loader">
+        <div class="circle">
+            <div class="circles" id="circle1"></div>
+            <div class="circles" id="circle2"></div>
+            <div class="circles" id="circle3"></div>
+            <div class="circles" id="circle4"></div>
+        </div>
+        <img id="img" src="src/loader.png"></img>
+        <div id="loader_src">
+            <div class="loader_in"
+                style="display: flex; gap:5px; font-family: Inter, sans-serif ;align-items: center; padding-left:10px ; color: white; position: absolute; bottom: 3vh; left: 2vw;">
+                <img id="img2" src="src/logo+loader.png" style="width: 29vw; position: absolute; bottom: 8vh;" alt="">
+                <div id="staticcounter">
+                    <h1>0 - </h1>
+                </div>
+                <div>
+                    <h1 id="maincount">0</h1>
+                </div>
+                <h3 style="padding-left:10px ;">Your pizza experience is loading</h3>
+            </div>
+        </div>
+    </div>
+    <div id="main" style="display: none;">
+        <header id = "head_dis">
+            <div class="logo">
+                <img src="./src/dominosLogoBlue 2.png" alt="Domino's Logo">
+                <button>
+                    <img src="./src/home.png" alt="Order Icon">Order
+                </button>
+                <button>
+                    <img src="./src/search.png" alt="About Domino's Icon">About Domino's
+                </button>
+            </div>
+            <div class="button">
+                <button id="Login">Login</button>
+                <button id="Sign-Up">Sign Up</button>
+            </div>
+        </header>
+        <div class="hero-wrapper">
+            <div class="hero-section">
+                <div class="main">
+                    <img class="main-logo" src="./src/image 1.png" alt="Dominos Logo">
+                    <p>Indulge yourself in the real texture blended with love. <br>Order now to get your favorite
+                        falvour pizza from Domino’s</p>
+                    <div class="hero-buttons">
+                        <button class="login">Order Now !</button>
+                        <button class="signup">Check our menu</button>
+                    </div>
+                    <div class="main-info"> <img src="./src/image 2.png" alt="info"></div>
+                </div>
+                <div class="bento-grid">
+                    <div class="left-part">
+                        <div class="left-top grid">
+                            <div class="top-c1"></div>
+                            <div class="top-c2"></div>
+                        </div>
+                        <div class="left-bottom grid"></div>
+                    </div>
+                    <div class="right-part">
+                        <div class="right-top">
+                            <div class="top-left grid"></div>
+                            <div class="top-right grid"></div>
+                        </div>
+                        <div class="right-bottom grid">
+                            <div class="bottom-c3 grid"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-para">
+            <div id="uni">
+                <p>"We don’t just make pizzas; we</p>
+                <p> meticulously craft each one to </p>
+                <p> achieve a perfect blend of </p>
+                <p>textures, infused
+                    with love in every single bite."</p>
+            </div>
+        </div>
+        <div class="text-bento2-wrapper">
+            <div class="text-bento2">
+                <div class="text2">
+                    <h1>Pizza - The Tale of Making and our promises</h1>
+                    <p>Delve into the story behind crafting the perfect Domino’s Pizza: a harmonious blend of textures,
+                        crafted with love in every single bite.</p>
+                </div>
+                 <div id= "sec" style="width: 100%; display: flex; align-items: center; justify-content: center;">
+                    <video autoplay  muted  style="width: 50vw; border-radius: 1.875vw;"  id="video" src="./src/The Secret to Every Handmade Domino's is.mp4"></video>
+                 </div>
+            </div>
+        </div>
+        <div class="card-section-wrapper">
+            <div class="card-section">
+                <div class="text2">
+                    <h1>Domino’s Presents Domino Stories , campaigns and more....</h1>
+                    <p>Get the top three Domino’s story and info about current campaigns here</p>
+                </div>
+                <div class="cards">
+                    <div class="card" href="#">
+                        <div class="card-top">
+                            <div class="circle1"></div>
+                            <p>5 min read</p>
+                        </div>
+                        <p class="card-title">India Special : Get your Pizza blazing fast in just 30mins for free.</p>
+                        <div class="card-bottom">
+                            <p>The icing on the cake or more aptly the extra cheese on your already fabulous pizza is
+                                th.....</p>
+                            <button><a href="#">→</a></button>
+                        </div>
+                    </div>
+                    <div class="card" href="#">
+                        <div class="card-top">
+                            <div class="circle2"></div>
+                            <p>5 min read</p>
+                        </div>
+                        <p class="card-title">A Campaign : You tip , We tip let’s make tipping interesting.</p>
+                        <div class="card-bottom">
+                            <p>One tip deserves another. Domino’s is thanking you for tipping by tipping you back.....
+                            </p>
+                            <button><a href="#">→</a></button>
+                        </div>
+                    </div>
+                    <div class="card" href="#">
+                        <div class="card-top">
+                            <div class="circle3"></div>
+                            <p>5 min read</p>
+                        </div>
+                        <p class="card-title">A Domino Story: Well we all know that it happens only with Pizza.</p>
+                        <div class="card-bottom">
+                            <p>Our brand new 60 sec Full pizza Anthem song for pizza lovers and addicts. Listen now.....
+                            </p>
+                            <button><a href="#">→</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="infinite-text">
+            <div class="infi">
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div>
+                <div class="imageholder"><img src="" alt="" class="pizzadom"></div> 
+            </div>
+            <h1>Pizza Bole to Domino’s</h1>
+        </div>
+        <div class="footer-wrapper">
+            <footer>
+                <div class="banner">
+                    <div class="in-banner">
+                        <h1>Love It.Feel It</h1>
+                        <button>Order Now →</button>
+                    </div>
+                </div>
+                <div class="real-footer">
+                    <div class="details">
+                        <img src="./src/dominosLogoBlue 1.png" alt="">
+                        <p>Domino's Pizza specializes in delivering a wide variety of pizzas, sides, desserts, and
+                            drinks.
+                            We offer customers the choice of various crusts, sauces, toppings, and sizes. Our menu also
+                            includes sandwiches, pasta, chicken wings, salads, and more. We provide online ordering and
+                            delivery services to ensure a convenient experience. At Domino's Pizza, we are committed to
+                            delivering quality food and excellent customer service, aiming to make every customer's
+                            experience enjoyable and memorable.</p>
+                        <div class="social-media">
+                            <a href="#"><img src="./src/Group 85.svg" alt=""></a>
+                            <a href="#"><img src="./src/Group 86.svg" alt=""></a>
+                            <a href="#"><img src="./src/Group 87.svg" alt=""></a>
+                            <a href="#"><img src="./src/Group 88.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="other">
+                        <div class="navigation">
+                            <h2>Navigation</h2>
+                            <a href="">
+                                <p>Service</p>
+                            </a>
+                            <a href="">
+                                <p>Agency</p>
+                            </a>
+                            <a href="">
+                                <p>Case Study</p>
+                            </a>
+                            <a href="">
+                                <p>Resource</p>
+                            </a>
+                            <a href="">
+                                <p>FAQ</p>
+                            </a>
+                            <a href="">
+                                <p>Nutritional Info</p>
+                            </a>
+                        </div>
+                        <div class="licence">
+                            <h2>Licence</h2>
+                            <a href="">
+                                <p>Piracy Policy</p>
+                            </a>
+                            <a href="">
+                                <p>Copyright</p>
+                            </a>
+                            <a href="">
+                                <p>Disclamer</p>
+                            </a>
+                            <a href="">
+                                <p>Terms & Conditions</p>
+                            </a>
+                        </div>
+                        <div class="contact">
+                            <h2>Contact</h2>
+                            <a href=""><img src="./src/Vector.svg" alt=""></a>
+                            <a href=""><img src="./src/Vector (1).svg" alt=""></a>
+                            <a href=""><img src="./src/Vector (2).svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="loader.js"></script>
+    <script src="text.js"></script>
+</body>
+
+</html>
