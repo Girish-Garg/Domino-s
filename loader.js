@@ -204,3 +204,11 @@ function ohki() {
       timeline.scrollTrigger.end = window.scrollY;
     });
 }
+
+if (window.screen.width < 451) {
+  document.querySelector(".small-top").style.display = "flex";
+  document.querySelector(".small-header").style.display = "flex";
+} else {
+  document.querySelector(".small-top").style.display = "none";
+  document.querySelector(".small-header").style.display = "none";
+}
