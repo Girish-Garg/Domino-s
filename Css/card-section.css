@@ -200,35 +200,35 @@
 
 @media screen and (max-height : 536px) {
     .card-section-wrapper{
-        margin-top: 12vh;
+         margin-top: 12vh !important;
     }
 }
 
 
 @media screen and (max-height : 500px) {
     .card-section-wrapper{
-        margin-top: 15vh;
+        margin-top: 15vh !important;
     }
 }
 
 
 @media screen and (max-height : 430px) {
     .card-section-wrapper{
-        margin-top: 20vh;
+        margin-top: 20vh !important;
     }
 }
 
 
 @media screen and (max-height : 400px) {
     .card-section-wrapper{
-        margin-top: 25vh;
+        margin-top: 25vh !important;
     }
 }
 
 
 @media screen and (max-height : 350px) {
     .card-section-wrapper{
-        margin-top: 30vh;
+        margin-top: 30vh !important;
     }
 }
 
