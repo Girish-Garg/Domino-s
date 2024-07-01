@@ -197,3 +197,9 @@
   
     width: 40%;
 }
+
+@media screen and (max-height : 536px) {
+    .card-section-wrapper{
+        margin-top: 10vh;
+    }
+}

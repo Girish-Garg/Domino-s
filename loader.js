@@ -175,8 +175,8 @@ function ohki() {
     scrollTrigger: {
       trigger: section,
       start: "60% center",
-      end: "120% top",
-      scrub: true,
+      end: "300% top",
+      scrub: 4,
       pin: true,
       container: "#main",
       onToggle: (self) => {
