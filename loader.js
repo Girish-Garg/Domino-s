@@ -208,6 +208,10 @@ function ohki() {
 if (window.screen.width < 451) {
   document.querySelector(".small-top").style.display = "flex";
   document.querySelector(".small-header").style.display = "flex";
+  let infi = document.querySelector(".infi");
+  for (let index = 17; index < 37; index++) {
+    infi.removeChild(infi.children[i])
+  }
 } else {
   document.querySelector(".small-top").style.display = "none";
   document.querySelector(".small-header").style.display = "none";
