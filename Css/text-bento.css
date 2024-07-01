@@ -36,34 +36,34 @@
 
 @media screen and (max-height : 600px) {
     .text-bento2-wrapper{
-        margin-bottom: 12vh;
+        margin-bottom: 12vh !important;
     }
 }
 
 
 @media screen and (max-height : 500px) {
     .text-bento2-wrapper{
-        margin-bottom: 15vh;
+        margin-bottom: 15vh !important;
     }
 }
 
 
 @media screen and (max-height : 430px) {
     .text-bento2-wrapper{
-        margin-bottom: 20vh;
+        margin-bottom: 20vh !important;
     }
 }
 
 
 @media screen and (max-height : 400px) {
     .text-bento2-wrapper{
-        margin-bottom: 25vh;
+        margin-bottom: 25vh !important;
     }
 }
 
 
 @media screen and (max-height : 350px) {
     .text-bento2-wrapper{
-        margin-bottom: 30vh;
+        margin-bottom: 30vh !important;
     }
 }
