@@ -233,3 +233,17 @@
     }
 }
 
+@media (max-width: 450px){
+    .card-section-wrapper{
+        min-height: 75vh;
+    }
+    .card-title{
+        font-size: 2.1vw;
+    }
+    .card-bottom p{
+        font-size: 1.3vw;
+    }
+    .infinite-text{
+        margin-top: 0;
+    }
+}

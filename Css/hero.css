@@ -55,7 +55,7 @@
     background-color: #fff;
     color: #eb3232;
     border: 1px solid #eb3232;
-    ;
+
 }
 
 .signup:hover {
@@ -185,4 +185,66 @@
     width: 68vw;
     font-size: 4.6vw;
 }
+.small-top{
+    width: 100vw;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.small-top img{
+    width: 35vw;
+}
+.small-header{
+    position: absolute;
+    justify-content:space-around;
+    align-items: center;
+    width: 80%;
+    bottom: 5px;
+    background-color: #eb3232;
+    left: 10%;
+    position: fixed;
+    z-index: 100;
+    border-radius: 13px;
+    display: none;
+}
+@media screen and (max-width : 450px) {
+    .hero-wrapper{
+        margin-top: 1px;
+        margin-bottom: 20px;
+        height: 70vh;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+        scale: 1.5;
+    }
+    .main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-section p{
+        width: 60%;
+        font-size: 2.4vw;
+    }
+    .main-logo{
+        display: none;
+    }
+    .main-info{
+        display: none;
+    }
+    .hero-buttons button {
+        padding: 8px 16px;
+        font-size: 1.7vw;
+    }
+    .hero-para{
+        height: 80vh;
+    }
+    .hero-para > #uni{
+        font-size: 6.9vw;
+        width: 75vw;
+    }
 
+}

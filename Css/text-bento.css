@@ -53,6 +53,7 @@
     .text-bento2-wrapper{
         margin-bottom: 20vh !important;
     }
+    
 }
 
 
@@ -66,5 +67,11 @@
 @media screen and (max-height : 350px) {
     .text-bento2-wrapper{
         margin-bottom: 30vh !important;
+    }
+}
+
+@media (max-width: 450px){
+    .text-bento2-wrapper{
+        min-height: 40vh;
     }
 }
