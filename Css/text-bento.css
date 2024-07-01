@@ -8,6 +8,7 @@
     margin-bottom: 50px;
     height: max-content;
     margin-bottom: auto;
+    overflow-x: hidden;
 }
 
 .text-bento2 {

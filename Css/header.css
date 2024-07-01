@@ -13,6 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    overflow-x: hidden;
     padding-right: 30px;
     top: -10vh;
     background-color: white;
