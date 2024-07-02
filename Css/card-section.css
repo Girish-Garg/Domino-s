@@ -231,6 +231,7 @@
 @media (max-width: 450px) {
   .card-section-wrapper {
     min-height: 76vh;
+    overflow-x: visible;
   }
   .card-title {
     font-size: 6vw;
